@@ -1,5 +1,5 @@
 {
-    "name": "fr-mccarty/nova-cashier-overview",
+    "name": "fr-mccarty/nova-cashier-overview-remote-db",
     "description": "Interact with your Stripe subscriptions directly inside Nova.",
     "keywords": [
         "laravel",
