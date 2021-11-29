@@ -12,7 +12,7 @@ class DatabaseSubscriptionsController extends Controller
      */
     public function show($billableId)
     {
-        $stripeModel = env('CASHIER_MODEL');
+        $stripeModel = env('STRIPE_MODEL');
 
         /** @var \Illuminate\Database\Eloquent\Model $billableModel */
         $billableModel = (new $stripeModel());
