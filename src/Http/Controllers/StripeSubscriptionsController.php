@@ -4,7 +4,7 @@ namespace LimeDeck\NovaCashierOverview\Http\Controllers;
 
 use Illuminate\Http\Response;
 use Illuminate\Support\Carbon;
-use Laravel\Cashier\Subscription;
+use App\Models\Subscription;
 use Stripe\Plan;
 use Stripe\Subscription as StripeSubscription;
 
